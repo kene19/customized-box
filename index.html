@@ -1,0 +1,97 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="ff.css">
+        <title>customize box</title>
+    </head>
+    <body>
+        <div class="gon">
+            <h4>Customize box</h4>
+            <br>
+        <div class="card">
+        </div>
+         <div class="backgra">
+            <br>
+            <h4>Background</h4>
+            <div class="bg" style="display: flex;align-items: center;gap: 1em;">
+                
+                <label> Background-color :</label>
+            <input type="color" name="" id="color" title="background-color"></div>  
+        </div>
+        <div class="border_radd">
+            <h4>Border</h4>
+        <span style="display: flex;align-items: center;gap: 1em;">
+        <input type="text" class="innn " maxlength="10" max="4" placeholder="Enter border-style" list="bra" name="bra" >
+        
+        <datalist id="bra" multiline>
+            <option value="none">none</option>
+            <option value="hidden">hidden</option>
+            <option value="dotted">dotted</option>
+            <option value="dashed">dashed</option>
+            <option value="solid">solid</option>
+            <option value="double">double</option>
+            <option value="groove">groove</option>
+            <option value="ridge">ridge</option>
+            <option value="inset">inset</option>
+            <option value="outset">outset</option>
+            <option value="initial">initial</option>
+            <option value="inherit">inherit</option>
+        </datalist> 
+        <input type="color" class="border-color" title="border-color">
+    </span>
+    <br>
+  
+        
+    <input type="range" class="ran" min="0" max="50" value="5" id="kanu"> 
+    <label id="border">5%</label> 
+</div>
+<br>
+<div>    
+<input type="checkbox"  class="ch" style="cursor: pointer;">
+<label style="font-size: small;">Show more custom</label>
+</div>
+<div id="border-rad-more" >
+    <h6>border-top-left-radius </h6>
+    <input type="range" min="0" max="50" value="5" class="show" id="border-top-left-radius">
+    <label id="bo1-top">5%</label>
+    <br>
+    <h6>border-top-right-radius</h6>
+    <input type="range" min="0" max="50" value="5" class="show" id="border-top-right-radius">
+    <label id="bo2-top">5%</label>
+    <br>
+    <h6>border-bottom-right-radius</h6>
+    <input type="range" min="0" max="50" value="5" class="show" id="border-bottom-right-radius">
+    <label id="bo3-top">5%</label>
+    <br>
+    <h6>border-bottom-left-radius</h6>
+    <input type="range" min="0" max="50" value="5" class="show" id="border-bottom-left-radius">
+    <label id="bo4-top">5%</label>
+    
+</div>
+    
+<br><br>
+        <button onclick="my()" class="button" title="CSS code" >show code &lt;/&gt;</button>
+         <div class="snap" id="demo">
+            <button onclick="x()" class="x1" title="exit">x</button>
+
+            <!-- ******************copy************************ -->
+      
+            <dev class="main">
+        <p id="p"  class="coo"></p>
+        <p id="pp" class="coo"></p> 
+        <p id="border-ra" class="coo"></p> 
+        <div  id="border-bottom">
+        <p id="border-bottom-left" class="coo"></p> 
+        <p id="border-bottom-right" class="coo"></p> 
+        <p id="border-top-left"    class="coo"></p> 
+        <p id="border-top-right"   class="coo"></p> 
+       </div>
+        </dev>
+        
+        </div>
+    </div>
+    <script src="colo.js"></script>
+    </body>
+    </html>
