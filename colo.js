@@ -1,5 +1,4 @@
 let box = document.querySelector('.card');
-// let main = document.querySelector('.main');
 let inputt = document.querySelector('#color');
 let input = document.querySelector('.innn');
 let demo = document.getElementById("demo");
@@ -63,13 +62,7 @@ function my(){
         xx.style.display = "none" ;  
     }
     
-    // va.oninput = function(){
-    //     val.innerHTML =`${this.value} px`;
-    //     box.style.borderRadius = this.value + "px" ;
-    //     box.style.borderWidth = this.value + "px" ;
-    // }
-    
-    //******************borderRadius****************
+//******************borderRadius****************
     
     vaa.oninput = function() {
         Rbord.innerHTML = `${this.value} %`;
